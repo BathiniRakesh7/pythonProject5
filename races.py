@@ -7,10 +7,10 @@ def calculating_B_beats_by_A(time_taken_by_A, time_taken_by_B, race_distance, ti
     B_beats_by_A = (race_distance / time_taken_by_A * time_difference)
     print(B_beats_by_A)
 
+condition = input('a)A_beats_by_B or b)B_beats_by_A ').lower()
 race_distance = int(input("enter race distance = "))
 time_taken_by_A = int(input("enter time taken by A = "))
 time_taken_by_B = int(input("enter time taken by B = "))
-condition = input('a)A_beats_by_B or b)B_beats_by_A ').lower()
 
 if condition == "a":
     time_difference = time_taken_by_B - time_taken_by_A

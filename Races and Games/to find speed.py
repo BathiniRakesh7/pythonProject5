@@ -18,8 +18,8 @@ else:
     A_speed=int(input("speed of A = "))*(18/5)
     A_beat_B=int(input("A beats by B in secs ="))
     time_taken_by_A=(A_distance/A_speed)
-    print("time taken by A ="+ str(time_taken_by_A)+"sec")
+    print("time taken by A ="+ str(round(time_taken_by_A,5))+"sec")
     time_taken_by_B=time_taken_by_A + A_beat_B
-    print("time taken by B ="+ str(time_taken_by_B)+"sec")
+    print("time taken by B ="+ str(round(time_taken_by_B,5))+"sec")
     B_speed= (B_distance/time_taken_by_B)
-    print("Speed of B ="+ str(B_speed)+ "m/sec")
+    print("Speed of B ="+ str(round(B_speed,5))+ "m/sec")

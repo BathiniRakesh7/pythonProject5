@@ -1,3 +1,4 @@
+
 race_distace=float(input("race distance ="))
 A_speed_ratio=int(input("speed ratio of A ="))
 B_speed_ratio=int(input("speed ratio of B ="))

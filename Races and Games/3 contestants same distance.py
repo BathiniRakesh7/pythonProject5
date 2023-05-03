@@ -31,7 +31,7 @@ def C_beat_A():
     C_beat_A=C-(C/distance)
     return C_beat_A
 
-condition=input("1)A_beat_C or 2)B_beat_C or 3)C_beat_A")
+condition=input("1)A_beat_C or 2)B_beat_C or 3)C_beat_A=")
 if condition=="1":
     print("A_beat_C="+str(A_beat_C()))
 

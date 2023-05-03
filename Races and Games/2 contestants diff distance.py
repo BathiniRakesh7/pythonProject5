@@ -1,0 +1,6 @@
+A=float(input("A runs a distance ="))
+B=int(input("B runs a distance ="))
+distance=(B/A)
+dif_distance=int(input("B beat A in how much distance ="))
+B_beat_A= dif_distance-(dif_distance/distance)
+print("B beats by A ="+ str(B_beat_A))

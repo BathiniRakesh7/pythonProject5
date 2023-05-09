@@ -1,11 +1,11 @@
 from subprocess import call
 
 def option():
-    condition = input('1)2 contestants diff distance 2)2 contestants for finding time '
-                  '\n3)2 contestants to find distance by time.py 4)3 contestants same distance '
-                  '\n5)3 contestants with 2 distances 6)3 different distances  7)finding distance by speed ratios'
-                      '\n 8)finding 2 speeds 9) to find one speed  10) members game'
-                   '\n11)to find loss or win percent PRESS 0 TO EXIT enter option = ')
+    condition = input('1)2_contestants different distance 2)2_and_3_contestants for finding time '
+                  '\n3)2_contestants to find distance by time 4)3_contestants same distance '
+                  '\n5)3_contestants with 2 distances 6)3_different distances  7)finding distance by speed ratios'
+                  '\n 8)finding 2 speeds 9) to find one speed  10) members game'
+                  '\n11)to find loss or win percent   PRESS 0 TO EXIT enter option = ')
 
     value = ''
     if condition == '1':

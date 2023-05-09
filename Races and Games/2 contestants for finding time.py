@@ -17,7 +17,7 @@ else:
     race_distance = float(input("Enter the race distance in meters="))
     A_beat_B_time = float(input("Enter A beats by B time in sec="))
     B_beat_C_time = float(input("Enter A beats by C time in sec="))
-    A_beat_C = float(input("Enter A beats C ="))
+    A_beat_C = float(input("Enter A beats C distance ="))
     time_taken_C = (A_beat_B_time + B_beat_C_time)
     print(f' time taken by C = {A_beat_B_time} +{B_beat_C_time} sec')
     print("Time taken by C ="+str(time_taken_C)+"sec")

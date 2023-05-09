@@ -4,7 +4,7 @@ if condition == "1":
     race_distance = float(input("Enter the race distance in meters="))
     A_beat_B_distance = float(input("Enter A beats by B distance in meters="))
     A_beat_B_time = float(input("Enter A beats by B time in sec="))
-    time_taken_B= (A_beat_B_time/A_beat_B_distance*race_distance)
+    time_taken_B = (A_beat_B_time/A_beat_B_distance*race_distance)
 
     print(f'time taken by B = {A_beat_B_time}/{A_beat_B_distance}*{race_distance}')
     print("Time taken by B ="+str(time_taken_B)+"sec")
@@ -28,5 +28,3 @@ else:
     time_taken_A = (total_time_taken_C-time_taken_C)
     print(f'Time taken by A = {total_time_taken_C}-{time_taken_C}')
     print("Time taken by A ="+str(time_taken_A)+"sec")
-
-

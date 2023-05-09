@@ -1,7 +1,7 @@
 
-condition=input("1)B_beat_C or 2)C_beat_B=")
+condition = input("1)B_beat_C or 2)C_beat_B=")
 
-if condition=="1":
+if condition == "1":
     A_beat_B = float(input("A beat B="))
     A_beat_C = float(input("A beat C="))
     A = float(input("Winner distance of A= "))
@@ -33,6 +33,3 @@ else:
     C_beat_B = c_beat_b - (c_beat_b / distance)
     print(f'B beat C = {c_beat_b}-{c_beat_b}/{distance}')
     print("C_beat_B =" + str(C_beat_B) + 'm')
-
-
-

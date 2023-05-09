@@ -1,5 +1,5 @@
 condition = input("1)win percentage or 2)lost percentage = ")
-if condition=="1":
+if condition == "1":
     total_matches_played = int(input("total matches played = "))
     matches_win = int(input("matches win = "))
     winning_percentage = (matches_win/total_matches_played*100)
